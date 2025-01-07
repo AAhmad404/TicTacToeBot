@@ -1,0 +1,44 @@
+# Node.js dependencies
+node_modules/
+
+# Build directories (if using a build tool like webpack, gulp, etc.)
+dist/
+build/
+public/
+
+# System files
+.DS_Store        # macOS
+Thumbs.db        # Windows
+
+# Log files
+*.log
+
+# Environment variables
+.env
+
+# Editor-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Temporary files
+*.swp
+*.bak
+*.tmp
+
+# Package manager files
+package-lock.json
+yarn.lock
+
+# Cache directories
+.cache/
+.npm/
+.bower/
+
+# Test or coverage files
+coverage/
+
+# Output directories for static site generators (e.g., Jekyll, Hugo)
+_site/
+output/

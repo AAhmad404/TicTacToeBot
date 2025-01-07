@@ -1,0 +1,70 @@
+* {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+#title {
+    color: white;
+    margin: 2.5rem;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: rgb(48, 48, 48);
+    align-items: center;
+    justify-content: center;
+}
+
+#game-board {
+    display: grid;
+    background-color: gray;
+    height: 25rem;
+    width: 25rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+#info {
+    color: gray;
+    margin: 1rem;
+}
+
+.game-square {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+}
+
+#reset-button {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+    padding: 0.3rem;
+    width: 110px;
+    border-radius: 3px;
+}
+
+
+.game-selectors {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+    text-align: center;
+    padding: 0.25rem;
+    width: 110px;
+    border: 2px solid rgb(84, 84, 84);
+    border-radius: 3px;
+}
+
