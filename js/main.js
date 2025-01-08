@@ -65,7 +65,7 @@ $(document).ready(function() {
             case EASY:
                 level = 1;
                 break;
-            case MEDIUM:
+            case HARD:
                 level = 2;
                 break;
             case UNDEFEATED:

@@ -27,7 +27,7 @@ const O = 'O';
 // Bot levels
 OFF = 'Bot Off';
 EASY = 'Easy';
-MEDIUM = 'Medium';
+HARD = 'Hard';
 UNDEFEATED = 'Undefeated';
 
 

@@ -42,16 +42,16 @@ class TicTacToeBot {
     }
 
     /**
- * Retrieves the coordinates of valid moves on the Tic Tac Toe board.
- * 
- * @param {array} board - The current state of the Tic Tac Toe board.
- * @returns {array} An array of coordinate pairs representing valid moves.
- *                  Each coordinate pair is represented as [rowIndex, colIndex].
- *                  Returns an empty array if the game has been won or there are no valid moves.
- * @example
- * If [0, 1], [1, 2], and [2, 0] are valid moves.
- * Returns [[0, 1], [1, 2], [2, 0]].
- */
+     * Retrieves the coordinates of valid moves on the Tic Tac Toe board.
+     * 
+     * @param {array} board - The current state of the Tic Tac Toe board.
+     * @returns {array} An array of coordinate pairs representing valid moves.
+     *                  Each coordinate pair is represented as [rowIndex, colIndex].
+     *                  Returns an empty array if the game has been won or there are no valid moves.
+     * @example
+     * If [0, 1], [1, 2], and [2, 0] are valid moves.
+     * Returns [[0, 1], [1, 2], [2, 0]].
+     */
     #getValidMoves(board) {
         // Check to see if the game is won by 'X' or 'O'.
         if (this.#evaluateGame(board) == 1 || this.#evaluateGame(board) == -1) {
