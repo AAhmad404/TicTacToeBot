@@ -2,9 +2,9 @@
 
 **TicTacToeBot** is a simple implementation of the classic Tic-Tac-Toe game built using **HTML**, **CSS**, and **JavaScript**. The game features an AI bot powered by the **Minimax algorithm**, allowing players to compete at three different difficulty levels: **Easy**, **Hard**, and **Undefeated**.
 
-## Features
+## Try it
 
-- Different difficulty levels: Easy, Hard, and Undefeated.
+[TicTacToeBot](https://aahmad404.github.io/TicTacToeBot/)
 
 ## Installation
 
