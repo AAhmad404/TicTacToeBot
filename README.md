@@ -13,6 +13,7 @@
    ```bash
    git clone https://github.com/AAhmad404/TicTacToeBot
    ```
+
 2. **Open the html file in a web browser**
 
 ## Usage
