@@ -109,7 +109,7 @@ $(document).ready(function () {
     }
 
     $("#player-select").show();
-    playerSelect = $("#player-select").val();
+    const playerSelect = $("#player-select").val();
 
     if (playerSelect == RANDOM) {
       // Randomize the starting player.
