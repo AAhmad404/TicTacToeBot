@@ -143,7 +143,7 @@ $(document).ready(function () {
   function resetGame() {
     $("#info").html(INFO_MESSAGES.empty);
 
-    SQUARES.forEach((square, index) => {
+    SQUARES.forEach((square) => {
       $(square).html(EMPTY);
     });
 
