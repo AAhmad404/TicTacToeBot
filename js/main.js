@@ -38,11 +38,9 @@ $(document).ready(function () {
 
   const INFO_MESSAGES = {
     thinking: "thinking...",
-    resetInfo: "Reset to update bot setting.",
-    playerInfo: "Reset to update player.",
     botWon: "The Bot Won.",
-    draw: "It's a draw!",
     userWon: "You Won!",
+    draw: "It's a draw!",
     cantPick: "You can't pick this square.",
     turn: "It's your turn!",
     empty: "",
@@ -60,12 +58,8 @@ $(document).ready(function () {
     });
   });
   $("#reset-button").click(resetGame);
-  $("#level-select").change(() => {
-    $("#info").html(INFO_MESSAGES.resetInfo);
-  });
-  $("#player-select").change(() => {
-    $("#info").html(INFO_MESSAGES.playerInfo);
-  });
+  $("#level-select").change(resetGame);
+  $("#player-select").change(resetGame);
 
   /**
    * Main function to initialize player/bot information.
